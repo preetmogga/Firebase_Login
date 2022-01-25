@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_iphone_6__7__8_plus___1"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/signText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="324dp"
+        android:padding="5dp"
+        android:text="@string/signup"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/custom_input"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="2dp"
+        android:hint="@string/enter_the_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signText" />
+
+    <EditText
+        android:id="@+id/regEmailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/nameInput"
+         android:layout_marginTop="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/custom_input"
+        android:inputType="textEmailAddress"
+        android:hint="@string/enter_the_email"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/regEmailInput"
+        android:layout_marginTop="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/custom_input"
+        android:inputType="phone"
+        android:hint="@string/enter_the_phoneNumber"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/passwdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/phoneInput"
+        android:layout_marginTop="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/custom_input"
+        android:inputType="textPassword"
+        android:hint="@string/enter_the_passwd"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        app:layout_constraintTop_toBottomOf="@id/passwdInput"
+        android:layout_margin="40dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

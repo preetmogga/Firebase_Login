@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">LogIn</string>
+    <string name="singup">SignUp</string>
+    <string name="enter_the_name">Enter the Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="enter_the_email">Enter The Email</string>
+    <string name="enter_the_phoneNumber">Enter The PhoneNumber</string>
+    <string name="enter_the_passwd">Enter The Passwd</string>
+    <string name="signup">SignUp</string>
+    <string name="welcome">Welcome</string>
+    <string name="name_user_name">Name: User name</string>
+    <string name="passwd_user_passwd">Passwd: user passwd</string>
+    <string name="email_user_email">Email: User email</string>
+    <string name="logout">Logout</string>
+</resources>

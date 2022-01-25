@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "692362856890",
+    "project_id": "login-72397",
+    "storage_bucket": "login-72397.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692362856890:android:1d7ec5e42d26bad336f583",
+        "android_client_info": {
+          "package_name": "com.mogga.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692362856890-8o4v1agnjobsf0db1n386t7bckvdhj78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ0AWh01dhgs4NupExjSGI7QC5bJBLQTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692362856890-8o4v1agnjobsf0db1n386t7bckvdhj78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
